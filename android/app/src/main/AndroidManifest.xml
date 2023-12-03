@@ -17,7 +17,7 @@
         </intent>
     </queries>
     <application
-        android:label="ro9ya"
+        android:label="أبو البراء للرقية الشرعية"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
