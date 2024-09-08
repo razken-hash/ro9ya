@@ -32,22 +32,14 @@ class Ro9yaTile extends StatelessWidget {
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(21),
-          // border: Border.all(color: altColor, width: 10),
-          color: altColor,
-          boxShadow: const [
-            BoxShadow(
+          boxShadow: [
+            const BoxShadow(
               color: Colors.black26,
-              offset: Offset(5, 5),
-              blurRadius: 20,
-              blurStyle: BlurStyle.outer,
-              spreadRadius: 0,
+              blurRadius: 20.0,
+              spreadRadius: -15.0,
             ),
             BoxShadow(
-              color: Color(0x44000000),
-              offset: Offset(-5, -5),
-              blurRadius: 20,
-              blurStyle: BlurStyle.outer,
-              spreadRadius: 0,
+              color: altColor,
             ),
           ],
         ),
